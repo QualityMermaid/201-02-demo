@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*  :root represents the <html> element and is identical to the selector html, excpet that its specifitity is highter */
+
+:root{
+/* Using CSS custom properties */
+--pnk: #F266AB;
+--org: #FFB84C;
+--blu: #2CD3E1;
+--pur: #9130c9;
+--mainbackgroundcolour: #DF2E38;
+--maintext: #3b005d;
+}
+
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    min-width: 320px;
+    font-size: 1rem;
+    letter-spacing: 0.01em;
+    line-height: 1.6rm;
+    background-color: white);
+    
+}
+
+aside{
+background-color: var(--mainbackgroundcolour);
+min-height: 100px;
+}
+
+div{
+    background-color: var(--mainbackgroundcolour);
+    min-height: 100px;
+
+
+}
+
+section{
+    background-color: var(--mainbackgroundcolour);
+    width: 90%;
+    margin: 2rem auto;
+}
+
+/* 
+Useful websites for colour
+
+Great site for gradients
+https://cssgradient.io/
+eg code for backgroun:
+background-color: #4158D0;
+background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 60%, #00ff2f 100%);
+
+grabient
+https://www.grabient.com/
+
+uiGradients
+https://uigradients.com/#DanceToForget
+
+Good for palettes
+https://coolors.co/
+https://colorhunt.co/
+
+
+
+*/
+
+h1{
+    color: var(--blu) ;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 60%, #ff0000 100%);
+    
+}
+p{
+    color: white;
+}
+
+.content{
+    color: var(--blu);
+}
+
+#more-content{
+    background-color: white;
+    color: black;
+}
+
+section ul{
+    list-style: square;
+    padding-left: 1.5rem;
+}
+
+section ol{
+    list-style: decimal;
+    padding-left: 1.5rem;
+    background-color: wheat;
+}
+
+section li{
+    margin-bottom: .5rem;
+    background-color: #FFB84C;
+    padding: .01rem;
+}
