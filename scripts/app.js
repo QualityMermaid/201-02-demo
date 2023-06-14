@@ -29,10 +29,18 @@ if( first && third){
 
 let color = prompt("What is your fav colour?")
 
+// Switch statement
+// WHen js reaches a break keyword, it breaks out of the switch block
+// This will stop the excution inside the switch block
+// It is not neccassary to break the last case in a switch block, the block breaks at the end anyway.
+// The switch expression is evaluated once
+// the value of the expression is compared with the values of each case
+// if there is a match then the accociated block of code is executed
+// if there is no match then the default block of code is executed which is why its important to have it.
 switch(color.toLocaleLowerCase()){
     case "red":
     console.log("Your fave colour is Red")
-    break;
+    break; // stop the condition running
     case "blue":
     console.log("I like Blue as well")
     break;

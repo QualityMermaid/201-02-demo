@@ -1,0 +1,42 @@
+*{
+    border: 1px solid black;
+    font-family: sans-serif;
+    /* box-sizing: border-box; */
+}
+
+.inline-p{
+    display: inline-block;
+}
+
+#px-div{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    /* padding: 10px; */
+}
+
+#pct-div{
+    width: 90%;
+    height: 90%;
+    background-color: brown;
+}
+
+#bmp-box{
+    padding: 20px;
+}
+
+#overflow-div{
+     max-height: 100px; /* should rarly have set hight, ideally have min and max, unless do it as a % instead of absolute measurement */
+    overflow: scroll;
+
+}
+/* label, input, button{
+    border: 1 px solid black;
+    display: inline;
+    margin: 6rem 2rem;
+}
+
+div{
+    display: inline;
+    margin: 6rem 0;
+} */
